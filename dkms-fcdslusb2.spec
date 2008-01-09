@@ -5,7 +5,7 @@
 Summary: dkms package for %{module} driver
 Name: dkms-%{module}
 Version: %{version}
-Release: %mkrel 6
+Release: %mkrel 7
 Source0: ftp://ftp.avm.de/cardware/fritzcrd.dsl_usb/linux/suse.93/fcdslusb-suse93-3.11-07.tar.bz2
 Source1: dkms-fcdslusb2-use-autoconf-header.patch
 Source2: dkms-fcdslusb2-dont-redefine-uintptr_t.patch
@@ -56,7 +56,7 @@ PATCH_MATCH[0]="^2\.6\.(19)|([2-9][0-9]+)|([1-9][0-9][0-9]+)"
 PATCH[1]="dkms-fcdslusb2-dont-redefine-uintptr_t.patch"
 PATCH_MATCH[1]="^2\.6\.(2[4-9])|([3-9][0-9]+)|([1-9][0-9][0-9]+)"
 PATCH[2]="dkms-fcdslusb2-remove-usb_driver_owner.patch"
-PATCH_MATCH[2]="^2\.6\.(1[4-9])|([2-9][0-9]+)|([1-9][0-9][0-9]+)"
+PATCH_MATCH[2]="^2\.6\.(1[6-9])|([2-9][0-9]+)|([1-9][0-9][0-9]+)"
 PATCH[3]="dkms-fcdslusb2-remove-DECLARE_MUTEX_LOCKED.patch"
 PATCH_MATCH[3]="^2\.6\.(2[4-9])|([3-9][0-9]+)|([1-9][0-9][0-9]+)"
 PATCH[4]="dkms-fcdslusb2-update-INIT_WORK-changes.patch"
