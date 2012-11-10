@@ -1,0 +1,7 @@
+dkms-fcdslusb2-dont-redefine-uintptr_t.patch
+dkms-fcdslusb2-remove-DECLARE_MUTEX_LOCKED.patch
+dkms-fcdslusb2-remove-usb_driver_owner.patch
+dkms-fcdslusb2-update-INIT_WORK-changes.patch
+dkms-fcdslusb2-update-usb_complete_t-functions.patch
+dkms-fcdslusb2-use-autoconf-header.patch
+fcdslusb-suse93-3.11-07.tar.bz2
