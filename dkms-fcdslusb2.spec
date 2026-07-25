@@ -5,7 +5,7 @@
 Summary: dkms package for %{module} driver
 Name: dkms-%{module}
 Version: %{version}
-Release: %mkrel 7
+Release: 8
 Source0: ftp://ftp.avm.de/cardware/fritzcrd.dsl_usb/linux/suse.93/fcdslusb-suse93-3.11-07.tar.bz2
 Source1: dkms-fcdslusb2-use-autoconf-header.patch
 Source2: dkms-fcdslusb2-dont-redefine-uintptr_t.patch
